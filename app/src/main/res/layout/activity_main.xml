@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/meu_branco"
+    android:gravity="center_horizontal">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontalScrollView" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="320dp"
+                    android:layout_height="20dp"
+                    android:gravity="center">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/meu_branco"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/llTelasActivity"
+                        android:orientation="vertical"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp">
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:background="@color/meu_branco"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="320dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Classificação - IMC"
+                        android:textColor="@color/meu_azul"
+                        android:textSize="20dp"
+                        android:id="@+id/textView1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/meu_branco"
+                    android:gravity="center"
+                    android:paddingTop="10dp">
+
+                    <EditText
+                        android:layout_width="320dp"
+                        android:layout_height="60dp"
+                        android:gravity="center"
+                        android:textColor="@color/meu_azul"
+                        android:background="@drawable/campo"
+                        android:textSize="20dp"
+                        android:inputType="numberDecimal"
+                        android:id="@+id/editText1"
+                        android:maxLength="6"
+                        android:hint="Peso em Kg (Ex.: 75.00)"
+                        android:textCursorDrawable="@drawable/cursor"
+                        android:textColorHint="@color/meu_azul"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/meu_branco"
+                    android:gravity="center"
+                    android:paddingTop="10dp">
+
+                    <EditText
+                        android:layout_width="320dp"
+                        android:layout_height="60dp"
+                        android:gravity="center"
+                        android:textColor="@color/meu_azul"
+                        android:background="@drawable/campo"
+                        android:textSize="20dp"
+                        android:inputType="numberDecimal"
+                        android:id="@+id/editText2"
+                        android:maxLength="4"
+                        android:hint="Altura em M (Ex.: 1.75)"
+                        android:textCursorDrawable="@drawable/cursor"
+                        android:textColorHint="@color/meu_azul"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/meu_branco"
+                    android:gravity="center"
+                    android:paddingTop="10dp">
+
+                    <Button
+                        android:layout_width="320dp"
+                        android:layout_height="60dp"
+                        android:textColor="@color/meu_branco"
+                        android:background="@drawable/botao"
+                        android:textSize="20dp"
+                        android:text="Executar"
+                        android:id="@+id/button1"
+                        android:onClick="executa_calculo"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/meu_branco"
+                    android:gravity="center"
+                    android:paddingTop="10dp">
+
+                    <Button
+                        android:layout_width="320dp"
+                        android:layout_height="60dp"
+                        android:textColor="@color/meu_branco"
+                        android:background="@drawable/botao"
+                        android:textSize="20dp"
+                        android:text="Limpar"
+                        android:id="@+id/button2"
+                        android:onClick="executa_limpeza"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </HorizontalScrollView>
+
+</LinearLayout>

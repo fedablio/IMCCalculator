@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/meu_branco">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="Legenda"
+                    android:background="#87CEEB"
+                    android:id="@+id/textView7" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/tela1"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/imageView2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/meu_azul"
+                    android:textSize="15dp"
+                    android:text="Abaixo do peso. IMC inferior a 18.5"
+                    android:id="@+id/textView1" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/tela2"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/imageView3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:textColor="@color/meu_azul"
+                    android:textSize="15dp"
+                    android:paddingLeft="5dp"
+                    android:text="Peso adequado. IMC entre 18.5 e 24.9"
+                    android:id="@+id/textView2" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/tela3"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/imageView4" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:textColor="@color/meu_azul"
+                    android:textSize="15dp"
+                    android:paddingLeft="5dp"
+                    android:text="Sobrepeso. IMC entre 25 e 29.9"
+                    android:id="@+id/textView3" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/tela4"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/imageView5" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:textColor="@color/meu_azul"
+                    android:textSize="15dp"
+                    android:paddingLeft="5dp"
+                    android:text="Obesidade grau I. IMC entre 30 e 34.9"
+                    android:id="@+id/textView4" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/tela5"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/imageView6" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:textColor="@color/meu_azul"
+                    android:textSize="15dp"
+                    android:paddingLeft="5dp"
+                    android:text="Obesidade grau II. IMC entre 35 e 39.9"
+                    android:id="@+id/textView5" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/tela6"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/imageView7" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:textColor="@color/meu_azul"
+                    android:textSize="15dp"
+                    android:paddingLeft="5dp"
+                    android:text="Obesidade grau III. IMC igual ou maior que 40"
+                    android:id="@+id/textView6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/meu_branco"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="Fonte"
+                    android:background="@color/meu_azul"
+                    android:id="@+id/textView8" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Associaçao Nacional de Atenção ao Diabetes"
+                    android:gravity="center"
+                    android:textColor="@color/meu_azul"
+                    android:textSize="15dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:id="@+id/textView9" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
